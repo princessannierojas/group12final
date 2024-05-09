@@ -15,7 +15,7 @@ const Sidebar = ({ isActive, toggleSidebar }) => {
 
             {/* SIDEBAR HEADER */}
             <div className="flex mt-14 py-0 ml-5">
-                <Image src="/mslogo.png" alt="Logo" width={200} height={0} className="w-46 h-12"/>
+                <img src="/mslogo.png" alt="Logo" className="w-46 h-12"/>
             </div>
 
             <hr className="border-t border-gray-700 my-4 mx-6 mb-3"/>
@@ -24,7 +24,7 @@ const Sidebar = ({ isActive, toggleSidebar }) => {
             <div className="ml-2">
                 <ul className="flex flex-col">
                     <div className="flex items-center text-white px-6 py-3">
-                        <Image src="/user_pic.jpg" alt="User" width={36} height={9} className="mr-3 rounded-md" />
+                        <img src="/user_pic.jpg" alt="User" className="w-9 h-9 mr-3 rounded-md"/>
                         <span>UsersName</span>
                     </div>                   
                 </ul>
